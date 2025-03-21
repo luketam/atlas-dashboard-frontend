@@ -1074,4 +1074,4 @@ def reset_dropdown_on_tab_change(active_tab, current_value):
 
 # Run Server
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000, debug=True)
